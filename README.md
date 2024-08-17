@@ -7,7 +7,8 @@ This project focuses on developing a sentiment analysis model using BERT (Bidire
 # Dataset
 The dataset used in this project consists of movie reviews in the form of sentences. It includes:
 
-# Training Data (train.csv): Contains 100,694 sentences with two columns:
+**Training Data (train.csv):** 
+Contains 100,694 sentences with two columns:
 
 **review_text:** The review sentence.
 **class_index:** The sentiment label (1 = Very Bad, 2 = Bad, 3 = Neutral, 4 = Good, 5 = Very Good).
