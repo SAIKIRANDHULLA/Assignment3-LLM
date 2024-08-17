@@ -20,7 +20,9 @@ The data was preprocessed and tokenized using BERT's tokenizer, which converts t
 
 **Model Selection and Training**
 **Model:** The BERT model was used for sequence classification with five sentiment classes.
+
 **Training:** The model was fine-tuned on the training dataset for two epochs, with evaluation conducted at each epoch. A learning rate of 2e-5 and a batch size of 16 were used.
+
 **Environment:** Training was conducted on a GPU to accelerate the process, with mixed precision training enabled.
 
 **Model Deployment**
@@ -34,8 +36,8 @@ Hosting: The application was deployed using ngrok to make it accessible via a pu
 **Deployment Issues:**  Network connectivity and environment configuration challenges in Google Colab affected deployment.
 
 **Future Improvements**
-- **Optimize Training Time: **Explore more efficient models or use more powerful GPUs.
-- **Improve Memory Management: **Optimize batch sizes and explore techniques like gradient accumulation.
+- **Optimize Training Time:** Explore more efficient models or use more powerful GPUs.
+- **Improve Memory Management:** Optimize batch sizes and explore techniques like gradient accumulation.
 - **Robust Deployment:** Consider using a production-ready server or cloud platform for more stable deployment.
 - **Enhanced Error Handling:** Implement better error handling and logging for quick issue resolution.
 
